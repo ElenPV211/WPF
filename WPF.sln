@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{1A8761BA-6C9D-4455-8BEF-D9F6F70B55A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{2A93646F-BF25-419B-A99A-3DF1AC26C254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUserControls", "CustomUserControls\CustomUserControls.csproj", "{23C24205-6A94-4384-A1A7-5073E899350E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastomTextControls", "CastomTextControls\CastomTextControls.csproj", "{206F4EBE-282F-4CFF-8A79-7778251CB100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A8761BA-6C9D-4455-8BEF-D9F6F70B55A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8761BA-6C9D-4455-8BEF-D9F6F70B55A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8761BA-6C9D-4455-8BEF-D9F6F70B55A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8761BA-6C9D-4455-8BEF-D9F6F70B55A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A93646F-BF25-419B-A99A-3DF1AC26C254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A93646F-BF25-419B-A99A-3DF1AC26C254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A93646F-BF25-419B-A99A-3DF1AC26C254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A93646F-BF25-419B-A99A-3DF1AC26C254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C24205-6A94-4384-A1A7-5073E899350E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C24205-6A94-4384-A1A7-5073E899350E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C24205-6A94-4384-A1A7-5073E899350E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C24205-6A94-4384-A1A7-5073E899350E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97127E27-53E0-4F0A-ADA1-89F918B66EA6}
+	EndGlobalSection
+EndGlobal
