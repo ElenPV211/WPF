@@ -16,13 +16,25 @@ using System.Windows.Shapes;
 namespace CastomTextControls.View
 {
     /// <summary>
-    /// Interaction logic for CreatableTextBox.xaml
+    /// Interaction logic for ClearableTextBox.xaml
     /// </summary>
-    public partial class CreatableTextBox : UserControl
+    public partial class ClearableTextBox : UserControl
     {
-        public CreatableTextBox()
+        public ClearableTextBox()
         {
             InitializeComponent();
+        }
+        private string placeholder;//переменная член всегда называется с маленькой буквы
+        
+
+        public string Placeholder//а соответствующее ей свойство с большой буквы
+        {
+            get { return placeholder; }
+            set 
+            {
+                placeholder = value; 
+                tbPlaceholder.Text = placeholder;
+            }
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)

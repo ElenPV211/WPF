@@ -19,11 +19,11 @@
 
 		<TextBlock Grid.Row="0" Name="tbTitle" Text="Registration form" FontSize="24"
 				   VerticalAlignment="Center" HorizontalAlignment="Center" />
-		<userControls:CreatableTextBox Grid.Row="1" Width="250" Height="40" />
-		<userControls:CreatableTextBox Grid.Row="2" Width="250" Height="40" />
-		<userControls:CreatableTextBox Grid.Row="3" Width="250" Height="40" />
-		<userControls:CreatableTextBox Grid.Row="4" Width="250" Height="40" />
-		<userControls:CreatableTextBox Grid.Row="5" Width="250" Height="40" />
+		<userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placeholder="Last name"/>
+		<userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placeholder="First name"/>
+		<userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40" Placeholder="E-mail"/>
+		<userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40" Placeholder="Phone"/>
+		<userControls:ClearableTextBox Grid.Row="5" Width="250" Height="40" Placeholder="Bank pin"/>
 
 	</Grid>
 </Window>
