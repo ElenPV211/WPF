@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUserControls", "Custo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastomTextControls", "CastomTextControls\CastomTextControls.csproj", "{206F4EBE-282F-4CFF-8A79-7778251CB100}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{077C5762-E626-4484-A157-EEEEAF770DD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{206F4EBE-282F-4CFF-8A79-7778251CB100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077C5762-E626-4484-A157-EEEEAF770DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077C5762-E626-4484-A157-EEEEAF770DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077C5762-E626-4484-A157-EEEEAF770DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077C5762-E626-4484-A157-EEEEAF770DD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
